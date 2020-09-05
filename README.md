@@ -9,7 +9,7 @@ To use it, you need to fill your username, API key and remote server URL in the 
 
 require_once __DIR__.'/api.php';
 
-$services = (new WebX\Api())->getImeiServices();
+$services = (new \WebX\Api())->getImeiServices();
 ```
 ##### Get Server Services
 ```
@@ -17,7 +17,7 @@ $services = (new WebX\Api())->getImeiServices();
 
 require_once __DIR__.'/api.php';
 
-$services = (new WebX\Api())->getServerServices();
+$services = (new \WebX\Api())->getServerServices();
 ```
 ##### Get File Services
 ```
@@ -25,7 +25,7 @@ $services = (new WebX\Api())->getServerServices();
 
 require_once __DIR__.'/api.php';
 
-$services = (new WebX\Api())->getFileServices();
+$services = (new \WebX\Api())->getFileServices();
 ```
 ##### Place IMEI Order
 ```
