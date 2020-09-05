@@ -3,6 +3,30 @@ Client library for WebX Next API.
 To use it, you need to fill your username, API key and remote server URL in the `api.php` file and require it in your script... 
 
 ## Usage
+##### Get Account Info
+```
+<?php
+
+require_once __DIR__.'/api.php';
+
+$info = (new \WebX\Api())->getAccountInfo();
+```
+##### Get Balance
+```
+<?php
+
+require_once __DIR__.'/api.php';
+
+$balance = (new \WebX\Api())->getBalance();
+```
+##### Get Currency
+```
+<?php
+
+require_once __DIR__.'/api.php';
+
+$currency = (new \WebX\Api())->getCurrency();
+```
 ##### Get IMEI Services
 ```
 <?php
