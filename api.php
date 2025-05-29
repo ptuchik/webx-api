@@ -23,7 +23,7 @@ class Api
      *
      * @var string
      */
-    protected $key = 'YOUR-API-KEY'; // Replace with your username
+    protected $key = 'YOUR-API-KEY'; // Replace with your API key
 
     /**
      * Supplier website URL
