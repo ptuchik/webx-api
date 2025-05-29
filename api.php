@@ -16,21 +16,21 @@ class Api
      *
      * @var string
      */
-    protected $username = 'your-username';
+    protected $username = 'YOUR-USERNAME'; // Replace with your username
 
     /**
      * API key
      *
      * @var string
      */
-    protected $key = 'YOUR-API-KEY';
+    protected $key = 'YOUR-API-KEY'; // Replace with your username
 
     /**
      * Supplier website URL
      *
      * @var string
      */
-    protected $url = 'website-url';
+    protected $url = 'WEBSITE-URL'; // Replace with your supplier's website URL
 
     /**
      * Folder, where you keep the files to be sent with file orders
